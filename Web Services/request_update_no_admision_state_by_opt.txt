@@ -1,0 +1,14 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:typ="http://xmlns.oracle.com/apps/sales/opptyMgmt/opportunities/opportunityService/types/" xmlns:opp="http://xmlns.oracle.com/apps/sales/opptyMgmt/opportunities/opportunityService/" xmlns:rev="http://xmlns.oracle.com/apps/sales/opptyMgmt/revenues/revenueService/" xmlns:not="http://xmlns.oracle.com/apps/crmCommon/notes/noteService" xmlns:not1="http://xmlns.oracle.com/apps/crmCommon/notes/flex/noteDff/" xmlns:rev1="http://xmlns.oracle.com/oracle/apps/sales/opptyMgmt/revenues/revenueService/" xmlns:act="http://xmlns.oracle.com/apps/crmCommon/activities/activitiesService/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <typ:updateOpportunity>
+         <typ:opportunity>
+         	  <opp:OptyId>300000018992336</opp:OptyId>
+         	  <opp:StatusCode>LOST</opp:StatusCode>
+		  <opp:SalesStageId>300000001436218</opp:SalesStageId>
+		  <opp:CTRSubEtapaVentas_c>51</opp:CTRSubEtapaVentas_c>
+		  <opp:ReasonWonLostCode>CTR_NO_ADMITIDO</opp:ReasonWonLostCode>
+	    </typ:opportunity>
+      </typ:updateOpportunity>
+   </soapenv:Body>
+</soapenv:Envelope>

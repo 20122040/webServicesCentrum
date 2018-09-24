@@ -1,0 +1,16 @@
+<soapenv:Envelope
+                xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                xmlns:ns1="http://xmlns.oracle.com/apps/crmCommon/salesParties/contactService/"
+                xmlns:ns2="http://xmlns.oracle.com/apps/crmCommon/salesParties/commonService/"
+                xmlns:ns3="http://xmlns.oracle.com/apps/cdm/foundation/parties/personService/"
+                xmlns:ns4="http://xmlns.oracle.com/apps/crmCommon/salesParties/contactService/types/"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <soapenv:Body>
+                	<ns4:updateContact>
+                    	<ns4:contact>
+                         <ns1:PartyId>300000018984284</ns1:PartyId>
+                         <ns1:PersonDEO_CTRCodigoPUCP_c>TESTCODIGO0987654</ns1:PersonDEO_CTRCodigoPUCP_c>  
+                        </ns4:contact>
+                    </ns4:updateContact>
+                </soapenv:Body>
+            </soapenv:Envelope>

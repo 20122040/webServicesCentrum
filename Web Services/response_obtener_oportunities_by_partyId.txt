@@ -1,0 +1,21 @@
+﻿<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:typ="http://xmlns.oracle.com/apps/sales/opptyMgmt/opportunities/opportunityService/types/">
+   <env:Header>
+      <wsa:Action>http://xmlns.oracle.com/apps/sales/opptyMgmt/opportunities/opportunityService//OpportunityService/findOpportunityResponse</wsa:Action>
+      <wsa:MessageID>urn:uuid:6ba1b32a-e307-4e28-ae63-27eaeaf4e703</wsa:MessageID>
+   </env:Header>
+   <env:Body>
+      <ns0:findOpportunityResponse xmlns:ns0="http://xmlns.oracle.com/apps/sales/opptyMgmt/opportunities/opportunityService/types/">
+         <ns3:result xsi:type="ns2:Opportunity" xmlns:ns2="http://xmlns.oracle.com/apps/sales/opptyMgmt/opportunities/opportunityService/" xmlns:ns1="http://xmlns.oracle.com/apps/sales/opptyMgmt/revenues/revenueService/" xmlns:ns3="http://xmlns.oracle.com/apps/sales/opptyMgmt/opportunities/opportunityService/types/" xmlns:ns0="http://xmlns.oracle.com/adf/svc/types/" xmlns:ns6="http://xmlns.oracle.com/apps/crmCommon/notes/noteService" xmlns:ns7="http://xmlns.oracle.com/oracle/apps/sales/opptyMgmt/revenues/revenueService/" xmlns:ns8="http://xmlns.oracle.com/apps/crmCommon/activities/activitiesService/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ns2:SalesStageId>300000001436215</ns2:SalesStageId>
+            <ns2:Name>CESAR HUASUPOMA - MBA G INT LIMA 2016-2 DOMINICAL CX</ns2:Name>
+            <ns2:OptyId>300000018992336</ns2:OptyId>
+            <ns2:ChildRevenue>
+               <ns1:ProdGroupId>300000017127709</ns1:ProdGroupId>
+            </ns2:ChildRevenue>
+            <ns2:CTRSubEtapaVentas_c>24</ns2:CTRSubEtapaVentas_c>
+            <ns2:CTREtapaPago_c>1</ns2:CTREtapaPago_c>
+            <ns2:CTRObsGenerales_c>anghelo observación</ns2:CTRObsGenerales_c>
+         </ns3:result>
+      </ns0:findOpportunityResponse>
+   </env:Body>
+</env:Envelope>
